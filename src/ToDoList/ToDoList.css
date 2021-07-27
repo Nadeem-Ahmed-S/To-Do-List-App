@@ -1,0 +1,95 @@
+.wrapper{
+    margin-top: 40px;
+    background: #f8f8f8;
+}
+
+.task-value{
+    margin-right: 50px;
+    width : 50%;
+    font-size: 30px;
+}
+
+.submit-button{
+    margin-right: 25px;
+    font-size: 20px;
+    color: rgb(33, 127, 235);
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.cancel-button{
+    margin-right: 25px;
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.932);
+}
+
+.item-div{
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 0;
+    background: #f7f7f7;
+}
+
+.item{
+    font-size : 20px;
+    text-align: left;
+}
+
+.delete-button{
+    margin: 10px 10px;
+    font-size : 15px;
+    float: right;
+}
+
+.update-button-incomplete{
+    margin: 10px 10px;
+    color: rgba(255, 0, 0, 0.932);
+    font-size : 15px;
+    float: right;
+}
+
+.update-button-complete{
+    margin: 10px 10px;
+    font-size : 15px;
+    color: hsl(140, 89%, 32%);
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .task-value{
+        margin-right: 30px;
+        width : 50%;
+    }
+    
+    .submit-button{
+        margin : 10px 25px 0px 100px;
+    }
+    
+    .cancel-button{
+        margin-top: 10px;
+    }
+    
+    .item-div{
+        padding: 35px;
+    }
+    
+    button:disabled,
+    button[disabled]{
+        border: 1px solid #999999;
+        background-color: #cccccc;
+        color: #cfb4b4;
+        cursor: not-allowed;
+    }
+}
+
+/*     
+text-decoration-line: line-through;
+text-decoration-style: solid ;
+*/
+
